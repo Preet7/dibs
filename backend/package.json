@@ -2,7 +2,7 @@
   "name": "dibs",
   "version": "1.0.0",
   "description": "Wishlist app",
-  "main": "index.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "bunyan": "^1.8.12",
     "common-tags": "^1.8.0",
     "cors": "^2.8.5",
